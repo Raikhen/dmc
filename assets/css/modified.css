@@ -1,0 +1,81 @@
+.logo-image {
+  z-index: 100;
+  width: 4.5em;
+  margin-top: 0.4em;
+  background-color: white;
+  border-radius: 100%;
+}
+
+@media only screen and (max-width: 736px) {
+  .logo-image {
+    margin-top: .3em;
+    width: 4em;
+  }
+}
+
+.all-journals {
+  margin-top: -3em;
+}
+
+.left-journals {
+  float: left;
+  width: 50%;
+  padding-right: 1em;
+}
+
+.right-journals {
+  float: right;
+  width: 50%;
+  padding-left: 1em
+}
+
+.journal {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.journal:hover {
+  transform: scale(1.05);
+}
+
+.row {
+  margin: -2em !important;
+}
+
+.short {
+  margin-top: -.5em !important;
+  margin-bottom: 1.4em !important;
+}
+
+.people {
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+.people > .row {
+  justify-content: center;
+  margin: 1.1em 1.1em;
+}
+
+.dmcer {
+  display: inline-block;
+  text-align: center;
+  margin: 0 1.1em 2em 1.1em;
+  width: 7em !important;
+}
+
+.dmcer > img  {
+  border-radius: 100% !important;
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+
+.dmcer > .desc {
+  line-height: 0 !important;
+}
